@@ -1,1 +1,136 @@
+ /* Reset default margins and padding */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Center-align everything */
+        body {
+            text-align: center;
+        }
+
+        /* Set a luxurious background image */
+        body {
+            background-image: url('gallery/pexels-pixabay-235985.jpg'); /* Replace with your luxurious image path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            color: #ffffff;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        /* Style the navigation menu */
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        /* Style section headers */
+        section h2 {
+            color: #000000;
+            font-size: 48px;
+            margin: 20px 0;
+        }
+
+        section p {
+            color: #000000;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        /* Style member cards */
+        .members-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .member {
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            max-width: 300px; /* Adjust the maximum width as needed */
+        }
+
+        .member img {
+            max-width: 100%; /* Make images responsive within the member cards */
+            border-radius: 50%;
+            border: 5px solid #fff;
+        }
+
+        .member h3 {
+            color: #333;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        /* Style gallery images */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .gallery img {
+            max-width: 300px; /* Adjust the maximum width as needed */
+            margin: 10px;
+            border: 5px solid #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery video {
+            max-width: 300px; /* Adjust the maximum width as needed */
+            margin: 10px;
+            border: 5px solid #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Style image descriptions */
+        .member p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* Style the footer */
+        footer {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            font-size: 16px;
+        }
+
+        /* Add hover effects for navigation links */
+        nav a:hover {
+            color: #ffcc00; /* You can change the hover color to match your desired luxurious style */
+            transition: color 0.3s;
+        }
 
