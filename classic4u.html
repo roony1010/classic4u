@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Classic4u - Bringing Music to Life</title>
+    <style>
+        /* Reset default margins and padding */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Center-align everything */
+        body {
+            text-align: center;
+        }
+
+        /* Set a luxurious background image */
+        body {
+            background-image: url('pexels-pixabay-235985.jpg'); /* Replace with your luxurious image path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            color: #ffffff;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        /* Style the navigation menu */
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        /* Style section headers */
+        section h2 {
+            color: #000000;
+            font-size: 48px;
+            margin: 20px 0;
+        }
+
+        section p {
+            color: #000000;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        /* Style member cards */
+        .members-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .member {
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            max-width: 300px; /* Adjust the maximum width as needed */
+        }
+
+        .member img {
+            max-width: 100%; /* Make images responsive within the member cards */
+            border-radius: 50%;
+            border: 5px solid #fff;
+        }
+
+        .member h3 {
+            color: #333;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        /* Style gallery images */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .gallery img {
+            max-width: 300px; /* Adjust the maximum width as needed */
+            margin: 10px;
+            border: 5px solid #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery video {
+            max-width: 300px; /* Adjust the maximum width as needed */
+            margin: 10px;
+            border: 5px solid #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Style image descriptions */
+        .member p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* Style the footer */
+        footer {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            font-size: 16px;
+        }
+
+        /* Add hover effects for navigation links */
+        nav a:hover {
+            color: #ffcc00; /* You can change the hover color to match your desired luxurious style */
+            transition: color 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Classic4u</h1>
+        <p>Bringing the magic of music to your special moments</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#members">Our Members</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <img src="KakaoTalk_20230827_200813329.jpg" alt="group-photo">
+        <p>Classic4u is a passionate ensemble group dedicated to performing classical, jazz, and timeless tunes to bring joy and unforgettable memories</p>
+    </section>
+
+    <section id="members">
+        <h2>Our Members</h2>
+        <div class="members-container">
+            <div class="member">
+                <img src="KakaoTalk_20230827_144706698.jpg" alt="Lena">
+                <h3>Lena Kim</h3>
+                <p>Violin 1</p>
+            </div>
+            <div class="member">
+                <img src="KakaoTalk_20230827_144612393.jpg" alt="Joanne">
+                <h3>Joanne Lee</h3>
+                <p>Violin 2</p>
+            </div>
+            <div class="member">
+            <img src="KakaoTalk_20230722_114412971.jpg" alt="Iroon">
+            <h3>Iroon Kim</h3>
+            <p>Bass</p>
+            </div>
+            <div class="member">
+                <img src="KakaoTalk_20230722_113300714.jpg" alt="Saeron">
+                <h3>Saeron Kim</h3>
+                <p>Viola</p>
+            </div>
+            <div class="member">
+                <img src="KakaoTalk_20230722_111741442.jpg" alt="Sky">
+                <h3>Sky Lee</h3>
+                <p>Bassoon</p>
+            </div>
+            
+            <!-- Add more member divs here -->
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="KakaoTalk_20230722_112313320.jpg" alt="april-poster">
+            <img src="KakaoTalk_20230722_112334545.jpg" alt="may-poster">
+            <img src="KakaoTalk_20230722_112501489.jpg" alt="june-poster">
+            <img src="KakaoTalk_20230722_112438410.jpg" alt="group1">
+            <img src="KakaoTalk_20230722_112538456.jpg" alt="group2">
+            <img src="KakaoTalk_20230722_112655179_04.jpg" alt="group3">
+            <img src="KakaoTalk_20230827_200813329.jpg" alt="group4">
+            <img src="KakaoTalk_20230827_200813329_02.jpg" alt="party1">
+            <video width="320" height="240" controls>
+                <source src="KakaoTalk_20230827_200925651.mp4" type=video/mp4>
+                <source src="KakaoTalk_20230827_201118745.mp4" type=video/mp4>
+              </video>
+              <video width="320" height="240" controls>
+                <source src="KakaoTalk_20230827_201118745.mp4" type=video/mp4>
+              </video>
+            <!-- Add more gallery images here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- Add your contact information or form here -->
+        <p>(310) 430-5292</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Classic4u. All rights reserved.</p>
+    </footer>
+</body>
+</html>
