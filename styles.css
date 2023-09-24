@@ -207,8 +207,9 @@ nav a:hover {
     .gallery img,
     .gallery video {
         max-width: 100%;
-        margin: 10px;
+        height: auto;
     }
+
 
     /* Style image descriptions for mobile */
     .member p {
