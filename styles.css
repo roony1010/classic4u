@@ -194,6 +194,11 @@ nav a:hover {
         font-size: 18px;
     }
 
+    section img {
+        max-width: 100%;
+        height: auto;
+    }
+
     /* Style member cards for mobile */
     .member {
         max-width: 100%;
